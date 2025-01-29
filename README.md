@@ -136,15 +136,16 @@ The **Biomedical Literature Query Processor** is a comprehensive tool designed t
 ```bash
 git clone https://github.com/yourusername/biomedical-query-processor.git
 cd biomedical-query-processor
+```
 Create a Virtual Environment (Recommended)
-bash
-Copy
+```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
 Install Dependencies
-bash
-Copy
+```bash
 pip install -r requirements.txt
+```
 Install Additional Dependencies
 Some libraries like torch may require specific installation steps based on your system and hardware. Refer to the PyTorch Installation Guide for detailed instructions.
 
@@ -173,9 +174,9 @@ output_indicator
 Environment Variables
 Create a .env file in the root directory to manage sensitive information like API keys.
 
-bash
-Copy
+```bash
 OPENAI_API_KEY=your_openai_api_key_here
+```
 Input and Output
 Input Directories
 Configuration Files: ./configs_system_instruction/
@@ -211,9 +212,9 @@ Ensure that your data files are placed in the appropriate directories:
 .gmt.gz and .txt.gz files in ./Data/biomart/
 PDF documents in ./Data/PDF/
 Execute the Script
-bash
-Copy
+```bash
 python your_script_name.py
+```
 Replace your_script_name.py with the actual name of your Python script containing the provided code.
 
 Monitoring Execution
@@ -296,17 +297,17 @@ Contributions are welcome! Please follow these steps:
 
 Fork the Repository
 Create a Feature Branch
-bash
-Copy
+```bash
 git checkout -b feature/YourFeature
+```
 Commit Your Changes
-bash
-Copy
+```bash
 git commit -m "Add some feature"
+```
 Push to the Branch
-bash
-Copy
+```bash
 git push origin feature/YourFeature
+```
 Open a Pull Request
 Please ensure that your code adheres to the project's coding standards and includes appropriate documentation and tests.
 
